@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  /* background: url(../assets/login-bg.png) no-repeat center center fixed; */
+  background-size: cover;
+}
+
+.form-container {
+  width: 700px;
+  height: 450px;
+  text-align: center;
+  background-color: white;
+
+  margin: 0 auto;
+  margin-top: 250px;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.form-container img {
+  width: 120px;
+  height: 120px;
+  margin-top: -60px;
+  margin-bottom: 30px;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 50%;
+}
+.login-title {
+  padding-left: 40px;
+  padding-bottom: 30px;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+/* .form-input {
+    display: flex;
+
+} */
+
+.form-input i {
+  position: absolute;
+}
+
+.icon {
+  padding: 13px;
+  min-width: 30px;
+  font-size: 21px !important;
+  text-align: center;
+}
+
+.form-input input {
+  height: 45px;
+  width: 90%;
+  margin-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  outline: none;
+  border: 1px solid #8a8a8a;
+  border-radius: 4px;
+}
+
+/* .form-input::before {
+    content: "\f007";
+    position: absolute;
+    font-family: "FontAwesome";
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 21px;
+    font-weight: 500;
+    border-right: 1px solid black;
+} */
+
+/* .form-input:last-child::before {
+    content: "\f023"
+} */
+
+.fa-eye:before {
+  content: "\f06e";
+  position: absolute;
+  right: 41px;
+  min-width: 30px;
+}
+.fa-eye-slash:before {
+  /* content: "\f06e"; */
+  position: absolute;
+  right: 41px;
+  min-width: 30px;
+}
+.btn-container .login-btn {
+  height: 45px;
+  width: 200px;
+  margin-top: 30px;
+  color: #eeeeee;
+  background-color: #8cc640;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1.5em;
+  padding-bottom: 4px;
+  outline: none;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  box-shadow: 0 0.125rem 9.375rem rgba(90, 97, 105, 0.1),
+    0 0.25rem 0.5rem rgba(90, 97, 105, 0.12),
+    0 0.9375rem 1.375rem rgba(90, 97, 105, 0.1),
+    0 0.4375rem 2.1875rem rgba(165, 182, 201, 0.1);
+}
+
+.btn-container a {
+  color: #eeeeee !important;
+  text-decoration: none !important;
+}
+
+.btn-container a:hover {
+  color: #eeeeee !important;
+}

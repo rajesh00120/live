@@ -1,0 +1,109 @@
+cite{
+    font-style: normal;
+}
+.light_grey{
+    color: #999;
+}
+.report_box{
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0px 2px 5px 1px #999;
+    background-color: #fff;
+}
+.report_border{
+    border-bottom: solid 1px blue;
+}
+.complaints_border{
+    border-bottom: solid 1px #333;
+}
+.complaints_border span, .complaints_border cite{
+    font-style: normal;
+    display: block;
+}
+ul.complaints_info{
+    padding: 0px;
+    margin: 0px;
+    width: auto;
+    float: left;
+    list-style: none;
+    list-style-type: none;
+}
+ul.complaints_info li.complaints_info_li{
+    display: inline-block;
+}
+span.total_complaints{
+    padding: 0px 0px 0px 8px;
+    color: coral;
+    display: block;
+    float: left;
+}
+.view_btn{
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+}
+.circle_div{
+    width: 30px;
+    height: 30px;
+    float: left;
+    border: solid 2px #666;
+    border-radius: 50%;
+}
+.trash_div a{
+    font-size: 25px;
+    line-height: 30px;
+    color: crimson;
+}
+span.complainant_name{
+    font-size: 21px;
+    line-height: 23px;
+}
+.complainant_email{
+    font-size: 18px;
+    line-height: 20px;
+}
+span.complainant_reported{
+    color: crimson;
+}
+.show_all_btn{
+    border-radius: 20px;
+    box-shadow: 0px 2px 3px 0px #666;
+}
+.complainant_border{
+    border-right: solid 2px #666;
+}
+.media_image{
+    width: 100%;
+}
+.modal_image{
+    width: 80%;
+}
+.media_image img{
+    width: 100%;
+}
+.complainant_modal{
+    border-radius: 1.5rem;
+}
+.complainant_modal span{ 
+    width: 100%;
+    display: block;
+    font-size: 22px;
+    line-height: 24px;
+    color: #666;
+}
+.complainant_modal cite{
+    font-style: normal;
+    width: 100%;    
+    display: block;
+    font-size: 18px;
+    line-height: 22px;
+    color: #999;
+}
+.complainant_modal .modal-header .close{
+    font-size: 3.5rem;
+    color: #000;
+    opacity: 1;
+}
+.fa{
+    cursor: pointer;
+}
