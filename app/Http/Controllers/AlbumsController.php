@@ -624,7 +624,7 @@ class AlbumsController extends Controller
         
         $img_path = URL("public/album_images");
         $userAlbums = DB::table('albumimages')->rightJoin('albums', 'albums.id', '=', 'albumimages.album_id')->select('albums.id as albumid','albums.name','albums.date','albums.timeline_date','albums.timeline_desc',DB::raw('DATE_FORMAT(albums.timeline_date, "%d") as day'),DB::raw("MONTHNAME(albums.timeline_date) as Month"),DB::raw("YEAR(albums.timeline_date) as Year"),DB::Raw('CONCAT("'.$img_path.'","/", albums.timeline_cover) as timeline_cover'),'albums.created_at')->where('albums.user_id','=',$userId)->orderBy('Year','desc')->orderBy('albumimages.id','desc')->get()->toArray();
-         
+        
         $timeMonths = [];
         $timelineData = [];
         if($userAlbums) {
